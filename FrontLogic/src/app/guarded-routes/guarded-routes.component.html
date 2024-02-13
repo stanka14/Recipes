@@ -1,0 +1,21 @@
+<div fxLayout="column"  class="components-container-gt-xs"  [ngClass.xs]="'components-container-xs'"  fxLayoutGap="20px">
+
+	<div fxLayout="row" fxLayout.sm="column" fxLayoutAlign="start space-between"  fxLayoutGap="10px">
+
+		<div fxFlex.sm="100" class="cdk-routes-holder"  fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" >
+
+			<mat-toolbar class="routes-header">
+			<h1 class="mat-headline center-align" >Guarded Routes</h1>
+		</mat-toolbar>
+	
+    	</div>
+    	<div fxFlex.xs="100"  class="cdk-routes-holder"  fxFlex.lg="50" fxFlex.md="50" fxFlex.sm="100" >
+			<router-outlet >
+		
+			</router-outlet>			
+    	</div>
+    </div>
+
+	    
+
+</div>

@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
               private fb: FormBuilder, private authservice: AuthService, private snackBar: MatSnackBar) {
               }
 
-  ngOnInit() {d
+  ngOnInit() {
     this.buildForm();
     localStorage.removeItem('token');
     localStorage.removeItem('isLoggedIn');

@@ -1,0 +1,23 @@
+$gray-lighter: #eceeef !default;
+$image_path: "/assets/images/" !default;
+
+$prefix: 'register';
+
+.#{$prefix} {
+
+  &-conainer {
+    min-height: 100%;
+    background-size: cover;
+    padding: 100px;
+  }
+
+  &-main {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+.full-width {
+  width: 100%;
+}

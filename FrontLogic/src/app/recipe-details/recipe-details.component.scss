@@ -1,0 +1,118 @@
+.recipe-details {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-label {
+  font-weight: bold; 
+}
+
+.wrap {
+  max-height: 600px; 
+  overflow-y: auto;
+}
+
+mat-input {
+  font-size: 16px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  font-size: 18px; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 16px;
+  float: right;
+}
+
+.image-container {
+  max-width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.ingredient-form-group {
+  display: flex;
+  margin-bottom: 15px;
+
+  mat-form-field {
+    margin-right: 10px;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.comments-ratings {
+  margin-left: 10px;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.ingredients  {
+  margin-left: 7px;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.comments h3,
+.ratings h3 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+  font-weight: bold; 
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #fff; 
+  display: flex;
+  flex-direction: column;
+}
+
+.comment p {
+  margin: 0;
+  font-size: 18px; 
+}
+
+.ratings .rating {
+  font-size: 32px;
+  cursor: pointer;
+  color: #999; 
+}
+
+.comment textarea,
+.comment button {
+  margin: 5px 0;
+}
+
+.ratings .rating .selected {
+  color: orange; 
+}
+
+.float-right {
+  float: right;
+}

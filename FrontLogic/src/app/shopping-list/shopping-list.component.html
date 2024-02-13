@@ -1,0 +1,16 @@
+<div class="shopping-list-container">
+    <div class="add-ingredient-container" [formGroup]="newIngredientForm">
+        <input type="text" formControlName="name" placeholder="Enter ingredient" [class.invalid]="newIngredientForm.get('name').invalid && newIngredientForm.get('name').touched" />
+        <input type="number" formControlName="quantity" placeholder="Enter quantity" [class.invalid]="newIngredientForm.get('quantity').invalid && newIngredientForm.get('quantity').touched" />
+        <button (click)="addIngredient()">Add</button>
+      </div>
+           
+  
+    <div class="ingredient-list">
+      <div *ngFor="let ingredient of shoppingList" class="ingredient-item">
+        <span>{{ ingredient.name }} ({{ ingredient.quantity }})</span>
+        <button (click)="removeIngredient(ingredient.id)">Remove</button>
+      </div>
+    </div>
+  </div>
+  

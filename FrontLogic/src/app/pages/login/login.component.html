@@ -1,0 +1,41 @@
+<div fxLayout="column" fxFlexFill fxLayoutAlign="center center" style="background-image:url('../../../assets/login11.jpg');
+height: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; ">
+    <div fxLayout="column" >
+   
+        <div class=" mat-elevation-z4">
+            <mat-card>
+                <mat-card-title>User login
+                    <a class="redirect" [routerLink]="['/register']">Register an account</a>
+                </mat-card-title>
+                <mat-card-content>
+                    <form fxLayout="column" fxLayoutAlign="start stretch" [formGroup]="userForm">
+                        <mat-form-field class="full-width">
+                          <input type="email" id="email" class="input" placeholder="Please enter your email"
+                                 formControlName="email" required matInput>
+                            <mat-error *ngIf="userForm.get('email')?.hasError('required') && userForm.get('email')?.touched">
+                                Email is required.
+                            </mat-error>
+                            <mat-error *ngIf="userForm.get('email')?.hasError('email') && userForm.get('email')?.touched">
+                                Please enter valid email address.
+                            </mat-error>
+                        </mat-form-field>
+                        <mat-form-field class="full-width">
+                            <input type="password" id="password" class="input" placeholder="Please  enter your password"
+                            formControlName="password" required matInput>
+                            <mat-error *ngIf="userForm.get('password')?.hasError('required') && userForm.get('password')?.touched">
+                                Password is required.
+                            </mat-error>
+                        </mat-form-field>
+                        <button mat-raised-button color="primary" type="submit" [disabled]="!userForm.valid" (click)="login()">Log in</button>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+
+</div>
+
+  

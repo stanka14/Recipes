@@ -1,0 +1,97 @@
+<div class="wrap" fxLayout="row">
+  <div class="image-container">
+    <mat-card class="image-card">
+      <mat-card-content>
+        <img [src]="imageUrl" class="recipe-image">
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div fxLayout="column" class="recipe-details">
+    <h2>Recipe details</h2>
+    <form [formGroup]="recipeForm">
+      <mat-form-field class="form-group">
+        <mat-label>Name:</mat-label>
+        <input matInput formControlName="name" required>
+        <mat-error *ngIf="recipeForm.get('name')?.invalid && recipeForm.get('name')?.touched">
+          Name is required.
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="form-group">
+        <mat-label>Description:</mat-label>
+        <textarea matInput formControlName="description" rows="4" required></textarea>
+        <mat-error *ngIf="recipeForm.get('description')?.invalid && recipeForm.get('description')?.touched">
+          Description is required.
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="form-group">
+        <mat-label>Category:</mat-label>
+        <mat-select formControlName="category" required>
+          <mat-option *ngFor="let category of recipeCategories" [value]="category">{{ category }}</mat-option>
+        </mat-select>
+        <mat-error *ngIf="recipeForm.get('category')?.invalid && recipeForm.get('category')?.touched">
+          Category is required.
+        </mat-error>
+      </mat-form-field>
+      <div formArrayName="ingredients">
+        <div *ngFor="let ingredientGroup of recipeForm.get('ingredients')['controls']; let i = index"
+          class="ingredient-form-group">
+          <mat-form-field>
+            <input matInput placeholder="Ingredient Name" [formControl]="ingredientGroup.get('name')" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Quantity" [formControl]="ingredientGroup.get('quantity')" type="number" required>
+          </mat-form-field>
+          <button mat-icon-button color="warn" (click)="removeIngredient(i)">
+            <mat-icon>remove_circle</mat-icon>
+          </button>
+        </div>
+        <button  type="button" mat-raised-button (click)="addIngredient()">Add Ingredient</button>
+      </div>
+      <br>
+      <div class="buttons">
+        <button mat-raised-button color="primary" (click)="saveChanges()">Save changes</button>
+        <button mat-raised-button color="warn" (click)="deleteRecipe()">Delete recipe</button>
+        <div *ngIf="errorMessage" class="error-message">
+          {{ errorMessage }}
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="comments-ratings">
+    <div class="comments">
+      <h3>Comments</h3>
+      <div class="comment">
+        <textarea [(ngModel)]="newComment" placeholder="Add a comment"></textarea>
+        <button mat-raised-button color="primary" (click)="addComment()">Add Comment</button>
+      </div>
+    
+      <div *ngFor="let comment of pagedComments" class="comment">
+        <p>{{ comment.content }}</p>
+        <p>Posted by: {{ comment.userName }}</p>
+      </div>
+  
+      <mat-paginator
+      [pageSize]="pageSize"
+      [pageSizeOptions]="pageSizeOptions"
+      [length]="recipeComments.length"
+      (page)="onPageChange($event)"
+    ></mat-paginator>
+  
+    </div>  
+  
+    <div class="ratings">
+      <h3>Ratings</h3>
+      <div class="rating">
+        <span (click)="rateRecipe(1)" [ngClass]="{ 'selected': recipeRating >= 1 }">&#9733;</span>
+        <span (click)="rateRecipe(2)" [ngClass]="{ 'selected': recipeRating >= 2 }">&#9733;</span>
+        <span (click)="rateRecipe(3)" [ngClass]="{ 'selected': recipeRating >= 3 }">&#9733;</span>
+        <span (click)="rateRecipe(4)" [ngClass]="{ 'selected': recipeRating >= 4 }">&#9733;</span>
+        <span (click)="rateRecipe(5)" [ngClass]="{ 'selected': recipeRating === 5 }">&#9733;</span>
+      </div>
+      <div class="error-message float-right">
+        {{ rateErrorMessage }}
+      </div>
+    </div>
+  </div>
+</div>
+

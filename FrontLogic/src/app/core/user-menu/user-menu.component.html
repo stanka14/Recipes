@@ -1,0 +1,30 @@
+<div class="toolbar-user-container">
+	<button mat-button (click)="isOpen = !isOpen" class="toolbar-user-btn" [class.open]="isOpen">
+  		<span fxLayout="row" fxLayoutAlign="start center">
+    		<img class="avatar" [src]="'assets/images/avatars/noavatar.png'">
+    		<span class="name" fxHide fxShow.gt-xs>{{currentUser?.username}}</span>
+    		<mat-icon class="icon" fxHide fxShow.gt-xs>keyboard_arrow_down</mat-icon>
+  		</span>
+  	</button>
+
+  	<div class="dropdown mat-elevation-z1" [class.open]="isOpen">
+    	<div class="content">
+      		<mat-nav-list>
+      			<mat-list-item>
+      				<a matLine (click)="editProfile()">Profile</a>
+				    <button mat-icon-button>
+				       <mat-icon>account_circle</mat-icon>
+				    </button>
+      			</mat-list-item>
+      			<mat-divider></mat-divider>
+
+      			<mat-list-item>
+      				<a matLine (click)="logout()">Logout </a>
+				    <button mat-icon-button>
+				       <mat-icon>exit_to_app</mat-icon>
+				    </button>
+      			</mat-list-item>
+      		</mat-nav-list>
+    	</div>
+  	</div>
+</div>

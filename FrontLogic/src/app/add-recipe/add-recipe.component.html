@@ -1,0 +1,54 @@
+<div class="wrap">
+  <div class="add-recipe">
+    <h2>Add new recipe</h2>
+    <form [formGroup]="newRecipeForm">
+      <mat-form-field class="form-group">
+        <mat-label>Name:</mat-label>
+        <input matInput id="name" name="name" formControlName="name" required>
+        <mat-error *ngIf="newRecipeForm.get('name')?.invalid && newRecipeForm.get('name')?.touched">
+          Name is required.
+        </mat-error>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="form-group">
+        <mat-label>Description:</mat-label>
+        <textarea matInput id="description" name="description" formControlName="description" rows="4" required></textarea>
+        <mat-error *ngIf="newRecipeForm.get('description')?.invalid && newRecipeForm.get('description')?.touched">
+          Description is required.
+        </mat-error>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="form-group">
+        <mat-label>Category:</mat-label>
+        <mat-select formControlName="category" required>
+          <mat-option *ngFor="let category of recipeCategories" [value]="category">{{ category }}</mat-option>
+        </mat-select>
+        <mat-error *ngIf="newRecipeForm.get('category')?.invalid && newRecipeForm.get('category')?.touched">
+          Category is required.
+        </mat-error>
+      </mat-form-field>
+      <div class="form-group">
+        <input type="file" id="recipeImage" name="recipeImage" (change)="onFileSelected($event)" formControlName="imageUrl">
+      </div>
+      <div formArrayName="ingredients">
+        <div *ngFor="let ingredientGroup of newRecipeForm.get('ingredients')['controls']; let i = index"
+          class="ingredient-form-group">
+          <mat-form-field>
+            <input matInput placeholder="Ingredient Name" [formControl]="ingredientGroup.get('name')" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Quantity" [formControl]="ingredientGroup.get('quantity')" type="number" required>
+          </mat-form-field>
+          <button mat-icon-button color="warn" (click)="removeIngredient(i)">
+            <mat-icon>remove_circle</mat-icon>
+          </button>
+        </div>
+        <button  type="button" mat-raised-button (click)="addIngredient()">Add Ingredient</button>
+      </div>
+      <br>
+      <div class="buttons">
+        <button mat-raised-button color="primary" (click)="addRecipe()" >Add recipe</button>
+      </div>
+    </form>
+  </div>
+</div>

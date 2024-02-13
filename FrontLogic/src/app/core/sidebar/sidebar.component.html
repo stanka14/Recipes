@@ -1,0 +1,36 @@
+<mat-tab-group>
+  <mat-tab label="Overview">
+    <div class="sidebar">
+
+      <mat-divider></mat-divider>
+
+      <h3 class="mat-subheading-2" style="margin: 10px 14px 0;">Latest Recipes</h3>
+
+      <div *ngFor="let recipe of latestRecipes" class="recipe-item" (click)="navigateToRecipeDetails(recipe.id)">
+        <mat-card class="recipe-card">
+          <mat-card-header>
+            <mat-card-title class="recipe-title">{{ recipe.name }}</mat-card-title>
+          </mat-card-header>
+          <br>
+          <mat-card-content>
+            <img [src]="recipe.imageUrl" style="max-width: 200px; max-height: 200px;" class="recipe-image" alt="{{ recipe.name }}">
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <h3 class="mat-subheading-2" style="margin: 10px 14px 0;">Top Rated Recipes</h3>
+
+      <div *ngFor="let recipe of topRatedRecipes" class="recipe-item" (click)="navigateToRecipeDetails(recipe.id)">
+        <mat-card class="recipe-card">
+          <mat-card-header>
+            <mat-card-title class="recipe-title">{{ recipe.name }}</mat-card-title>
+          </mat-card-header>
+          <br>
+          <mat-card-content>
+            <img [src]="recipe.imageUrl" style="max-width: 200px; max-height: 200px;" class="recipe-image" alt="{{ recipe.name }}">
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-tab>
+</mat-tab-group>
