@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iAYfg/Lvj7b3sIGjrSytPMPC0Z3xO9rd771bk6YU69FcRw18KunKMiV+4cSLKjZDEN/mTOPsNREiDOUFYsVbeQ==",
+  "dgSpecHash": "uj4oNckiBQw5K1fJzPsTjSZBUuwcA3MFBUF/PfjoDCJYfNVJXIfnEKHyd2MAYicBTvIKqErZmb5bqjAHZYrayA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

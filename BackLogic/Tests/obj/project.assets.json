@@ -8248,11 +8248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\stanka.kosutic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stanka.kosutic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8269,14 +8269,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj"
+            "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj"
             },
-            "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Recipes\\Recipes.csproj": {
-              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Recipes\\Recipes.csproj"
+            "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Recipes\\Recipes.csproj": {
+              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Recipes\\Recipes.csproj"
             },
-            "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj"
+            "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj"
             }
           }
         }

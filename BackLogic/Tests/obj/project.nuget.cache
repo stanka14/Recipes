@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ubqds6OAql3eWWRa7pdkyyjGA0FKFoM27WSGdr3pgIy2xRifxVpLybSNo97zCacn23vlvtdeTTaxzjuKaTE+Yg==",
+  "dgSpecHash": "5JCWb+NjShNg9jVaswi3u0/E8Srm910UkwY14Vpuk50LXanyBH9qxBC/83agRmDoVeGFP8ul2TtaU+RiCgE6bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

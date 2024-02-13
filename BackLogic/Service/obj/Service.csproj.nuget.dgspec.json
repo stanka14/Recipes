@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj": {}
+    "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj": {
+    "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\stanka.kosutic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\obj\\",
+        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stanka.kosutic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\Dtos.csproj": {
+    "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\Dtos.csproj",
         "projectName": "Dtos",
-        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\Dtos.csproj",
+        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\Dtos.csproj",
         "packagesPath": "C:\\Users\\stanka.kosutic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\obj\\",
+        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stanka.kosutic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,8 +115,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj"
+              "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj": {
+    "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\stanka.kosutic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\obj\\",
+        "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stanka.kosutic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,11 +180,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj"
+              "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj"
               },
-              "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\Dtos.csproj": {
-                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Dtos\\Dtos.csproj"
+              "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\Dtos.csproj": {
+                "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Dtos\\Dtos.csproj"
               }
             }
           }

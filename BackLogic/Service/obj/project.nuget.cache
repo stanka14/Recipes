@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fe+ClsvGjGjKEJbYEMUrIkizKt+Xi5GKpWMelOonHElDnAbOd4ZkVBVVRO488G1ePIh39KyHmelnhBL96ufQtg==",
+  "dgSpecHash": "IWCi+SfDfwLcGt+9yLh0qxdG/imWCLcUMbDNHnY9hqQm1XPg9bGqE/faYDfV/u9LSH/bVa+EzNuyvFV/JK20Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

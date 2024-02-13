@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1yGYDYiOeeA2771qdSx6SsAdZwNCkps8sCwiyTc8M3IjGRoYVhpYycOocTNynAxWOe9yCChOlh9wqn5xF0doA==",
+  "dgSpecHash": "HzQjg0aNHVSi5m4EzdIY59FTYo6fY8+SZ03xAISVAZYzDUjqSEvHGuKva+g8X2EjMJLJ0+D674PY0e2B+SyCTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Recipes\\Recipes.csproj",
+  "projectFilePath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Recipes\\Recipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\stanka.kosutic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

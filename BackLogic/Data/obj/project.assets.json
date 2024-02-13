@@ -3109,11 +3109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\stanka.kosutic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Back\\Recepti\\Data\\obj\\",
+      "outputPath": "C:\\Users\\stanka.kosutic\\MyProject\\Front\\BackLogic\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stanka.kosutic\\AppData\\Roaming\\NuGet\\NuGet.Config",
