@@ -1,0 +1,5 @@
+9/21/2023 5:57:28 PM: Uspješno dodan recept: gjhkj
+9/21/2023 6:04:47 PM: 9/21/2023 6:04:46 PM - New recipe added: {"ID":null,"Description":null,"Name":"krofne","UserId":null,"Favourite":false,"ImageUrl":null,"Category":"MainCourse"}
+9/21/2023 6:55:24 PM: Recipe added: {"ID":"","Description":"logiraj","Name":"logiraj","UserId":"9def54af-c6d1-4641-987e-7162d4b16553","Favourite":false,"ImageUrl":"supa.jpg","Category":"MainCourse"}
+9/21/2023 6:55:34 PM: Recipe updated: {"ID":"5ae581c8-11a2-4629-b1f5-17129cb33963","Description":"logiraj","Name":" izmjenjen","UserId":"9def54af-c6d1-4641-987e-7162d4b16553","Favourite":false,"ImageUrl":"supa.jpg","Category":"MainCourse"}
+9/21/2023 6:55:38 PM: Recipe deleted: {"ID":"5ae581c8-11a2-4629-b1f5-17129cb33963","Description":"logiraj","Name":" izmjenjen","UserId":"9def54af-c6d1-4641-987e-7162d4b16553","Favourite":false,"ImageUrl":"supa.jpg","Category":"MainCourse"}
