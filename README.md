@@ -17,6 +17,7 @@ Project structure:
 2. Service layer
 3. Data layer
 4. Presentation layer
+5. Unit tests
 
 More:
 API Documentation - swagger, logging, error handling, async operations, authorization and authentication, real-time communication.
